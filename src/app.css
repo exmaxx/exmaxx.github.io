@@ -1,0 +1,105 @@
+@import 'tailwindcss';
+
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--color-primary: var(--color-fuchsia-300);
+	--color-secondary: var(--color-zinc-400);
+	--color-accent: var(--color-zinc-200);
+}
+
+@layer base {
+	h1,
+	h2,
+	h3 {
+		@apply font-bold;
+	}
+
+	h1 {
+		@apply mb-0 text-3xl;
+	}
+
+	h2 {
+		@apply mt-4 text-lg;
+	}
+
+	h3 {
+		@apply mt-5 mb-2 text-sm;
+	}
+
+	ul {
+		@apply list-disc pl-5;
+
+		li {
+			@apply py-0.5;
+
+			&::marker {
+				color: var(--color-secondary);
+			}
+		}
+	}
+
+	p {
+		@apply my-2 leading-relaxed;
+	}
+
+	strong {
+		@apply bg-accent rounded px-2 py-[0.125em] font-medium tracking-wide;
+	}
+
+	a {
+		@apply underline underline-offset-2 before:mr-0.5 before:inline-block before:content-['→_'] hover:cursor-pointer hover:text-amber-600;
+	}
+
+	a[href^='tel'] {
+		@apply no-underline before:content-none;
+	}
+}
+
+/* Badge */
+
+@layer components {
+	.badge {
+		@apply border-secondary rounded border px-1 py-px;
+	}
+}
+
+@utility badge-large {
+	@apply border-secondary bg-zinc-200;
+}
+
+/* Ribbons */
+
+@theme {
+	--stripes-spacing-small: 1;
+	--stripes-spacing-large: 2;
+}
+
+/* prettier-ignore*/
+@utility stripes-* {
+	--first-ribbon: calc(--value(--stripes-spacing-*) * 5px);
+	--second-ribbon: calc(var(--first-ribbon) * 2);
+	--transparency-from: calc(--value(--stripes-spacing-*) * 0.15);
+	--transparency-to: calc(var(--transparency-from) * 2);
+
+	background-image: linear-gradient(
+			to bottom,
+			rgba(255, 255, 255, var(--transparency-from)) 20%,
+			rgba(255, 255, 255, var(--transparency-to))
+		),
+		repeating-linear-gradient(
+			135deg,
+			#f5f5f5,
+			#f5f5f5 var(--first-ribbon),
+			#d3d3d3 var(--first-ribbon),
+			#d3d3d3 var(--second-ribbon)
+		);
+}
+
+/* Zoom */
+
+/* prettier-ignore*/
+@utility font-zoom-* {
+	font-size: --value(number)em;
+	font-size: --value([number])em;
+}
