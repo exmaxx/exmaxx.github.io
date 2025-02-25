@@ -17,6 +17,6 @@
 	class="zoom-1 border-t bg-amber-50 py-2 text-center text-zinc-400 sm:absolute
 			sm:right-0 sm:bottom-0 sm:m-px sm:origin-bottom-left sm:translate-x-full sm:-rotate-90 sm:border-none sm:bg-inherit sm:pl-4"
 >
-	{t('source_code')}: <a href="https://github.com/exmaxx/curriculum-vitae">{t('here')}</a>
+	{t('source_code')}: <a href="https://github.com/exmaxx/exmaxx.github.io">{t('here')}</a>
 	(HTML, CSS, Tailwind 4)
 </div>

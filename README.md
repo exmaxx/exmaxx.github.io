@@ -2,6 +2,10 @@
 
 My resume.
 
+## Online
+
+Visit online version on [exmaxx.github.io](https://exmaxx.github.io).
+
 ## Stack
 
 - Sveltekit
