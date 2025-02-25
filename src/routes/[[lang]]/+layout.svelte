@@ -1,14 +1,19 @@
 <script lang="ts">
+	import { page } from '$app/state'
 	import SourceCodeNote from './SourceCodeNote.svelte'
 	import PrintNote from './PrintNote.svelte'
 
 	const { children } = $props()
 </script>
 
+<svelte:head>
+	<title>Marek Uličný - CV ({page.params.lang || 'en'})</title>
+</svelte:head>
+
 <div
 	class="sm:grid-areas-main min-h-dvh items-center
 	 bg-zinc-400 py-1 sm:grid sm:grid-cols-[1fr_auto_1fr] sm:grid-rows-[1fr_auto_1fr]
-	  print:bg-none"
+	  print:bg-inherit"
 >
 	<PrintNote />
 
