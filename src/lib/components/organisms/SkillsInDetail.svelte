@@ -1,6 +1,10 @@
 <script>
+	import { page } from '$app/state'
+	import { DEFAULT_LANG } from '$lib/constants'
 	import Badge from '$lib/components/atoms/Badge.svelte'
 	import i18n from '$lib/i18n'
+
+	const { lang = DEFAULT_LANG } = page.params
 
 	const t = i18n({
 		cs: {
@@ -12,6 +16,7 @@
 			interest_3: 'psychologie',
 			lang_de: 'Německý: pasivně (A1)',
 			lang_en: 'Anglický: plynně (C1)',
+			lang_cs: 'Český: rodilý mluvčí',
 			languages: 'Jazyky',
 			my_attributes: 'Mé vlastnosti',
 			task_completion: 'dotahuji úkoly, aktivně řeším problémy',
@@ -27,6 +32,7 @@
 			interest_3: 'psychology',
 			lang_de: 'German: passive (A1)',
 			lang_en: 'English: fluent (C1)',
+			lang_cs: 'Czech: native speaker',
 			languages: 'Languages',
 			my_attributes: 'My attributes',
 			task_completion: 'task completion, active problem-solving',
@@ -97,5 +103,8 @@
 		<h3>{t('languages')}</h3>
 		<div>{t('lang_en')}</div>
 		<div>{t('lang_de')}</div>
+		{#if lang === 'en'}
+			<div>{t('lang_cs')}</div>
+		{/if}
 	</div>
 </section>

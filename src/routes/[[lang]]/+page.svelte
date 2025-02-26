@@ -18,9 +18,11 @@
 </script>
 
 <article class="px-6 py-8 sm:px-12 sm:shadow-2xl print:shadow-none">
-	<div class="text-secondary mb-2 text-right *:p-1 *:before:content-none sm:absolute sm:right-12 print:hidden">
+	<nav
+		class="text-secondary zoom-[1.5] mb-2 text-right *:p-1 *:before:content-none sm:absolute sm:right-12 print:hidden"
+	>
 		<LangSwitcher {langs} current={currentLang} />
-	</div>
+	</nav>
 
 	<Title />
 
@@ -45,7 +47,7 @@
 			</div>
 		</div>
 
-		<div class="border-secondary rounded border-2 border-dashed p-6">
+		<div class="border-secondary rounded border-2 border-dashed px-6 py-4">
 			<SkillsHighlight />
 			<SkillsInDetail />
 		</div>

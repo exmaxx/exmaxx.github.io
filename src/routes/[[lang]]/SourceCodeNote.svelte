@@ -4,11 +4,11 @@
 	const t = i18n({
 		cs: {
 			here: 'zde',
-			source_code: 'Projděte si zdrojový kód',
+			source_code: 'Zdrojový kód tohoto CV',
 		},
 		en: {
 			here: 'here',
-			source_code: 'Check source code',
+			source_code: 'Source code of this CV',
 		},
 	})
 </script>

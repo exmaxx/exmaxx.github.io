@@ -15,12 +15,7 @@
 	})
 </script>
 
-<div
-	class="text-accent zoom-2 sm:zoom-[3] flex flex-col
-		items-center sm:my-3 sm:gap-1 sm:[grid-area:top]
-		2xl:mr-10 2xl:flex-row 2xl:gap-6 2xl:justify-self-end 2xl:[grid-area:left]
-		print:hidden"
->
+<div class="flex flex-col items-center sm:my-3 sm:gap-1 2xl:mr-10 2xl:flex-row 2xl:gap-6">
 	<div class="flex flex-col items-center text-nowrap">
 		<div>
 			<button class="underline hover:cursor-pointer hover:text-white" onclick={() => window.print()}>
