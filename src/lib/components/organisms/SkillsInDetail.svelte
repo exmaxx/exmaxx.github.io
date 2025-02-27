@@ -1,10 +1,11 @@
-<script>
+<script lang="ts">
 	import { page } from '$app/state'
 	import { DEFAULT_LANG } from '$lib/constants'
 	import Badge from '$lib/components/atoms/Badge.svelte'
 	import i18n from '$lib/i18n'
+	import type { Lang } from '$lib/langs.js'
 
-	const { lang = DEFAULT_LANG } = page.params
+	const currentLang = $derived(page.params.lang || DEFAULT_LANG) as Lang
 
 	const t = i18n({
 		cs: {
@@ -103,7 +104,7 @@
 		<h3>{t('languages')}</h3>
 		<div>{t('lang_en')}</div>
 		<div>{t('lang_de')}</div>
-		{#if lang === 'en'}
+		{#if currentLang === 'en'}
 			<div>{t('lang_cs')}</div>
 		{/if}
 	</div>
