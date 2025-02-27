@@ -6,7 +6,7 @@ type Translations = Record<Lang, Record<string, string>>
 
 export default (translations: Translations) =>
 	(key: string): string => {
-		const lang: Lang = (page.params.lang || DEFAULT_LANG) as Lang
+		const currentLang = $derived(page.params.lang || DEFAULT_LANG) as Lang
 
-		return translations[lang][key]
+		return translations[currentLang][key]
 	}

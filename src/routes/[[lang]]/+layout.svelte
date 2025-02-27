@@ -1,28 +1,22 @@
 <script lang="ts">
-	import { page } from '$app/state'
-	import i18n from '$lib/i18n'
-	import { DEFAULT_LANG } from '$lib/constants'
+	import i18n from '$lib/i18n.svelte'
 	import SourceCodeNote from './SourceCodeNote.svelte'
 	import PrintNote from './PrintNote.svelte'
 
 	const { children } = $props()
 
-	const lang = page.params.lang || DEFAULT_LANG
-
 	const t = i18n({
 		cs: {
-			surname: 'Uličný',
-			language: 'Česky',
+			language: 'CZ',
 		},
 		en: {
-			surname: 'Ulicny',
-			language: 'English',
+			language: 'EN',
 		},
 	})
 </script>
 
 <svelte:head>
-	<title>Marek {t('surname')} - CV ({t('language')})</title>
+	<title>Marek Ulicny - CV ({t('language')})</title>
 </svelte:head>
 
 <div

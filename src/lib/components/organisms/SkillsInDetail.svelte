@@ -2,7 +2,7 @@
 	import { page } from '$app/state'
 	import { DEFAULT_LANG } from '$lib/constants'
 	import Badge from '$lib/components/atoms/Badge.svelte'
-	import i18n from '$lib/i18n'
+	import i18n from '$lib/i18n.svelte'
 	import type { Lang } from '$lib/langs.js'
 
 	const currentLang = $derived(page.params.lang || DEFAULT_LANG) as Lang

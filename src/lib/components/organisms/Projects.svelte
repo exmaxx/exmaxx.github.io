@@ -1,7 +1,7 @@
 <script>
 	import Project from '$lib/components/atoms/Project.svelte'
 	import Badge from '$lib/components/atoms/Badge.svelte'
-	import i18n from '$lib/i18n'
+	import i18n from '$lib/i18n.svelte.js'
 
 	const t = i18n({
 		cs: {
