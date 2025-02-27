@@ -51,10 +51,8 @@
 	>
 		{t('proj_gap_description')}
 
-		<p class="my-0">
-			{t('source_app')}: <a href="https://github.com/exmaxx/cz-income-simple">Github</a>. {t('source_lib')}:
-			<a href="https://github.com/exmaxx/cz-income-lib">Github</a>
-		</p>
+		<span class="text-nowrap">{t('source_app')}: <a href="https://github.com/exmaxx/cz-income-simple">Github</a>.</span>
+		<span class="text-nowrap">{t('source_lib')}: <a href="https://github.com/exmaxx/cz-income-lib">Github</a>.</span>
 
 		<p class="flex flex-wrap gap-1">
 			<Badge class="badge-large">TS</Badge>
