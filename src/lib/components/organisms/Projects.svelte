@@ -91,7 +91,7 @@
 			<Badge>refactoring</Badge>
 			<Badge>code reviews</Badge>
 			<Badge>scrum</Badge>
-			<Badge>e-eshop</Badge>
+			<Badge>e-shop</Badge>
 		</p>
 	</Project>
 </section>
@@ -106,7 +106,7 @@
 			<Badge>Flowtype</Badge>
 			<Badge>REST API</Badge>
 			<Badge>{t('leadership')}</Badge>
-			<Badge>e-eshop</Badge>
+			<Badge>e-shop</Badge>
 		</p>
 	</Project>
 </section>
