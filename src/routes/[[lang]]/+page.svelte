@@ -3,7 +3,7 @@
 	import Title from '$lib/components/organisms/Title.svelte'
 	import SkillsHighlight from '$lib/components/organisms/SkillsHighlight.svelte'
 	import History from '$lib/components/organisms/History.svelte'
-	import Experience from '$lib/components/organisms/Experience.svelte'
+	import Projects from '$lib/components/organisms/Projects.svelte'
 	import Links from '$lib/components/organisms/Links.svelte'
 	import SkillsInDetail from '$lib/components/organisms/SkillsInDetail.svelte'
 	import Lead from '$lib/components/organisms/Lead.svelte'
@@ -34,7 +34,7 @@
 	<section class="flex flex-col-reverse gap-8 sm:grid sm:grid-cols-[380px_auto]">
 		<div class="grid grid-cols-[200px_auto] content-start gap-x-4">
 			<section class="col-span-2">
-				<Experience />
+				<Projects />
 			</section>
 
 			<section class="col-span-2 sm:col-span-1">
