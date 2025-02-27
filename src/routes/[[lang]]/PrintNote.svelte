@@ -15,7 +15,7 @@
 	})
 </script>
 
-<div class="flex flex-col items-center sm:my-3 sm:gap-1 2xl:mr-10 2xl:flex-row 2xl:gap-6">
+<div class="flex flex-col items-center a4:my-3 a4:gap-1 2xl:mr-10 2xl:flex-row 2xl:gap-6">
 	<div class="flex flex-col items-center text-nowrap">
 		<div>
 			<button class="underline hover:cursor-pointer hover:text-white" onclick={() => window.print()}>

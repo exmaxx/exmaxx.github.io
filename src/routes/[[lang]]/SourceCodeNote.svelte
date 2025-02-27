@@ -14,8 +14,8 @@
 </script>
 
 <div
-	class="zoom-1 border-t bg-amber-50 py-2 text-center text-zinc-400 sm:absolute
-			sm:right-0 sm:bottom-0 sm:m-px sm:origin-bottom-left sm:translate-x-full sm:-rotate-90 sm:border-none sm:bg-inherit sm:pl-4"
+	class="zoom-1 border-t bg-amber-50 py-2 text-center text-zinc-400 a4:absolute
+			a4:right-0 a4:bottom-0 a4:m-px a4:origin-bottom-left a4:translate-x-full a4:-rotate-90 a4:border-none a4:bg-inherit a4:pl-4"
 >
 	{t('source_code')}: <a href="https://github.com/exmaxx/exmaxx.github.io">{t('here')}</a>
 	(HTML, CSS, Tailwind 4)
