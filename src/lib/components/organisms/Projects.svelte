@@ -87,11 +87,10 @@
 			<Badge>Nuxt</Badge>
 			<Badge>GraphQL</Badge>
 			<Badge>Web Vitals</Badge>
+			<Badge>performance</Badge>
 			<Badge>Azure DevOps</Badge>
 			<Badge>refactoring</Badge>
-			<Badge>code reviews</Badge>
-			<Badge>scrum</Badge>
-			<Badge>e-shop</Badge>
+			<Badge>i18n</Badge>
 		</p>
 	</Project>
 </section>

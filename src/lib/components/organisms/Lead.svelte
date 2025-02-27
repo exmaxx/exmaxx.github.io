@@ -12,7 +12,7 @@
 		en: {
 			about_me: 'About me',
 			lead_1: 'I focus on app development, writing quality code, problem-solving, and teamwork.',
-			lead_2: ' I have been working as a developer for 17 years, including',
+			lead_2: 'I have been working as a professional developer for 17 years, including',
 			lead_3: 'as a',
 			years: 'years',
 		},
