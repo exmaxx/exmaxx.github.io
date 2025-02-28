@@ -4,9 +4,8 @@ import { DEFAULT_LANG } from '$lib/constants'
 
 type Translations = Record<Lang, Record<string, string>>
 
-export default (translations: Translations) =>
-	(key: string): string => {
-		const currentLang = $derived(page.params.lang || DEFAULT_LANG) as Lang
+export default (translations: Translations) => {
+	const currentLang = $derived(page.params.lang || DEFAULT_LANG) as Lang
 
-		return translations[currentLang][key]
-	}
+	return (key: string) => translations[currentLang][key]
+}
