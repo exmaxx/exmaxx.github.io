@@ -16,7 +16,7 @@
 
 <h3 class="flex items-center gap-2">
 	<span>{position}</span>
-	<span class="text-secondary zoom-[0.85] grow text-right whitespace-nowrap a4:self-end">{period}</span>
+	<span class="text-secondary zoom-[0.85] a4:self-end grow text-right whitespace-nowrap">{period}</span>
 </h3>
 
 <div class="ml-1 border-zinc-300 pl-4">

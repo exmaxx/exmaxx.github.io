@@ -17,31 +17,31 @@
 	const currentLang = $derived(page.params.lang || DEFAULT_LANG) as Lang
 </script>
 
-<article class="px-6 py-8 a4:px-12 a4:shadow-2xl print:shadow-none">
+<article class="a4:px-12 a4:shadow-2xl px-6 py-8 print:shadow-none">
 	<nav
-		class="text-secondary zoom-[1.5] mb-2 text-right *:p-1 *:before:content-none a4:absolute a4:right-12 print:hidden"
+		class="text-secondary zoom-[1.5] a4:absolute a4:right-12 mb-2 text-right *:p-1 *:before:content-none print:hidden"
 	>
 		<LangSwitcher {langs} current={currentLang} />
 	</nav>
 
 	<Title />
 
-	<section class="my-5 flex flex-col a4:flex-row-reverse a4:gap-10">
+	<section class="a4:flex-row-reverse a4:gap-10 my-5 flex flex-col">
 		<Contacts />
 		<Lead />
 	</section>
 
-	<section class="flex flex-col-reverse gap-8 a4:grid a4:grid-cols-[380px_auto]">
+	<section class="a4:grid a4:grid-cols-[380px_auto] flex flex-col-reverse gap-8">
 		<div class="grid grid-cols-[200px_auto] content-start gap-x-4">
 			<section class="col-span-2">
 				<Projects />
 			</section>
 
-			<section class="col-span-2 a4:col-span-1">
+			<section class="a4:col-span-1 col-span-2">
 				<History />
 			</section>
 
-			<div class="col-span-2 a4:col-span-1">
+			<div class="a4:col-span-1 col-span-2">
 				<Education />
 				<Links />
 			</div>
