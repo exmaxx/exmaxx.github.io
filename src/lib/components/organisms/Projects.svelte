@@ -9,12 +9,12 @@
 			now: 'nyní',
 			npm_lib: 'vlastní NPM knihovna',
 			proj_drmax_description:
-				'Velký mezinárodní tým spravující e-shop s léčivy. Mou hlavní náplní byl rozvoj modulu Checkout. Spolupracoval jsem také mmj. na rolloutu e-shopu na Slovensko a do Polska.',
+				'Velký mezinárodní tým spravující e-shop s léčivy. Mou hlavní náplní byl týmový rozvoj a údržba modulu Checkout. Spolupracoval jsem také mmj. na rolloutu e-shopu na Slovensko a do Polska.',
 			proj_drmax_react_description: 'Vedení FE týmu 3 lidí. Vytvoření Checkoutu jako nezávislé aplikace.',
 			proj_esticom_description:
 				'Webová aplikace pro stavební inženýry - stavební nákresy, odhady cen prací, rozesílání nabídek. Malý mezinárodnítým.',
 			proj_gap_description: 'Malý srovnávač platů.',
-			proj_gap_title: 'Sebevzdělávání, osobní projekty',
+			proj_gap_title: 'Sebevzdělávání a osobní projekty',
 			source_app: 'Zdroj stánky',
 			source_lib: 'Zdroj knihovny',
 			subtitle: 'Výběr',
@@ -25,12 +25,12 @@
 			now: 'now',
 			npm_lib: 'own NPM library',
 			proj_drmax_description:
-				'Big multinational team working on e-shop with pharmaceuticals. My main task was to develop Checkout module. I also worked on rollouts of e-shop to Slovakia and Poland.',
+				'Big multinational team working on e-shop with pharmaceuticals. My main task was to co-develop and maintain Checkout module. I also worked on rollouts of e-shop to Slovakia and Poland.',
 			proj_drmax_react_description: 'Leading FE team of 3 people. Creating the Checkout as independent application.',
 			proj_esticom_description:
 				'Web application for civil engineers - construction drawings, cost estimates, bids creation. Small multinational team.',
 			proj_gap_description: 'Simple salary comparator.',
-			proj_gap_title: 'Self-learning, personal projects',
+			proj_gap_title: 'Self-learning & Personal Projects ',
 			source_app: 'App source',
 			source_lib: 'Library source',
 			subtitle: 'Selection',
@@ -86,9 +86,9 @@
 			<Badge>GraphQL</Badge>
 			<Badge>Web Vitals</Badge>
 			<Badge>performance</Badge>
-			<Badge>Azure DevOps</Badge>
-			<Badge>refactoring</Badge>
 			<Badge>i18n</Badge>
+			<Badge>Google Tag Manager</Badge>
+			<Badge>Azure DevOps</Badge>
 		</p>
 	</Project>
 </section>
@@ -103,7 +103,6 @@
 			<Badge>Flowtype</Badge>
 			<Badge>REST API</Badge>
 			<Badge>{t('leadership')}</Badge>
-			<Badge>e-shop</Badge>
 		</p>
 	</Project>
 </section>

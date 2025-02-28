@@ -10,7 +10,9 @@
 	const t = i18n({
 		cs: {
 			brief_encounters: 'Letmá setkání',
+			bug_hunting: 'lovení bugů',
 			detail_oriented: 'zaměřený na detaily',
+			deep_code_reviews: 'hloubkové code reviews',
 			honest: 'upřímný, spolehlivý, komunikativní, empatický',
 			interest_1: 'Advent of code, vývoj her (Godot)',
 			interest_2: 'grafy, vizualizace dat',
@@ -26,7 +28,9 @@
 		},
 		en: {
 			brief_encounters: 'Brief encounters',
+			bug_hunting: 'bug hunting',
 			detail_oriented: 'detail-oriented',
+			deep_code_reviews: 'deep code reviews',
 			honest: 'honest, reliable, communicative, empathetic',
 			interest_1: 'Advent of code, gamedev (Godot)',
 			interest_2: 'charts, data visualization',
@@ -51,16 +55,13 @@
 		<Badge>Tailwind 4</Badge>
 		<Badge>Flex</Badge>
 		<Badge>Grid</Badge>
-		<Badge>Jest</Badge>
+		<Badge>{t('deep_code_reviews')}</Badge>
+		<Badge>{t('bug_hunting')}</Badge>
 		<Badge>refactoring</Badge>
-		<Badge>code reviews</Badge>
+		<Badge>Jest</Badge>
 		<Badge>Git</Badge>
-		<Badge>eslint</Badge>
-		<Badge>prettier</Badge>
 		<Badge>Web Vitals</Badge>
 		<Badge>SSR</Badge>
-		<Badge>Azure Devops</Badge>
-		<Badge>Jira</Badge>
 		<Badge>Copilot</Badge>
 		<Badge>scrum</Badge>
 	</div>

@@ -11,8 +11,8 @@
 
 {#each langs as lang}
 	{#if lang === current}
-		<span>{lang}</span>
+		<span class="font-bold">{lang}</span>
 	{:else}
-		<a href="/{lang}">{lang}</a>
+		<a href="/{lang}" class="no-underline">{lang}</a>
 	{/if}
 {/each}

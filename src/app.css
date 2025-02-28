@@ -27,7 +27,7 @@
 	}
 
 	h3 {
-		@apply zoom-[1.25] mt-5 mb-2 leading-[1.4];
+		@apply zoom-[1.20] mt-5 mb-2 leading-[1.4];
 	}
 
 	ul {
@@ -52,10 +52,6 @@
 
 	a {
 		@apply text-nowrap underline underline-offset-2 before:mr-0.5 before:inline-block before:content-['→_'] hover:cursor-pointer hover:text-amber-600;
-	}
-
-	a[href^='tel'] {
-		@apply no-underline before:content-none;
 	}
 }
 
