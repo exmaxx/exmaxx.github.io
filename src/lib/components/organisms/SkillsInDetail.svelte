@@ -55,12 +55,8 @@
 		<Badge>refactoring</Badge>
 		<Badge>code reviews</Badge>
 		<Badge>Git</Badge>
-		<Badge>eslint</Badge>
-		<Badge>prettier</Badge>
 		<Badge>Web Vitals</Badge>
 		<Badge>SSR</Badge>
-		<Badge>Azure Devops</Badge>
-		<Badge>Jira</Badge>
 		<Badge>Copilot</Badge>
 		<Badge>scrum</Badge>
 	</div>

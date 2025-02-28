@@ -86,9 +86,9 @@
 			<Badge>GraphQL</Badge>
 			<Badge>Web Vitals</Badge>
 			<Badge>performance</Badge>
-			<Badge>Azure DevOps</Badge>
-			<Badge>refactoring</Badge>
 			<Badge>i18n</Badge>
+			<Badge>Google Tag Manager</Badge>
+			<Badge>Azure DevOps</Badge>
 		</p>
 	</Project>
 </section>
@@ -103,7 +103,6 @@
 			<Badge>Flowtype</Badge>
 			<Badge>REST API</Badge>
 			<Badge>{t('leadership')}</Badge>
-			<Badge>e-shop</Badge>
 		</p>
 	</Project>
 </section>
