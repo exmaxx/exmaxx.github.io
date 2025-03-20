@@ -6,7 +6,6 @@
 	import SkillsTech from './(components)/SkillsTech.svelte'
 	import Lead from './(components)/Lead.svelte'
 	import Contacts from './(components)/Contacts.svelte'
-	import LangSwitcher from '$lib/components/organisms/LangSwitcher.svelte'
 	import Education from './(components)/Education.svelte'
 	import Profiles from './(components)/Profiles.svelte'
 	import Languages from './(components)/Languages.svelte'
@@ -21,6 +20,7 @@
 			years: 'roky',
 			experience_subtitle: 'Výběr',
 			experience_title: 'Praxe',
+			who_am_i: 'Kdo jsem',
 		},
 		en: {
 			learning: 'learning',
@@ -29,22 +29,24 @@
 			years: 'years',
 			experience_subtitle: 'Selection',
 			experience_title: 'Experience',
+			who_am_i: 'Who am I',
 		},
 	})
 </script>
 
-<article class="a4:px-12 relative px-6 py-8 print:shadow-none">
-	<div class="text-secondary zoom-1.5 a4:absolute a4:right-12 mb-2 text-right *:p-1 *:before:content-none print:hidden">
-		<LangSwitcher />
-	</div>
+<article class="a4:px-12 px-6 py-8 print:shadow-none">
+	<section class="a4:flex-row ml-2 flex flex-col">
+		<div class="grow">
+			<Title />
+		</div>
 
-	<section class="ml-2">
-		<Title />
-		<Contacts />
+		<div>
+			<Contacts />
+		</div>
 	</section>
 
-	<section class="a4:grid a4:grid-cols-[auto_370px] mt-8 flex flex-col-reverse gap-10">
-		<section class="border-secondary flex flex-col gap-3 rounded-xl bg-gray-100 px-4 pb-4">
+	<section class="a4:grid a4:grid-cols-[auto_370px] mt-6 flex flex-col-reverse gap-8">
+		<section class="border-secondary bg-accent flex flex-col gap-3 rounded-xl px-5 pb-4">
 			<h2>{t('summary')}</h2>
 
 			<Lead />
@@ -54,7 +56,7 @@
 			<SkillsHighlight />
 			<SkillsTech />
 
-			<h2 class="mt-1">Who I am</h2>
+			<h2 class="mt-1">{t('who_am_i')}</h2>
 
 			<Personality />
 			<Interests />
@@ -64,7 +66,7 @@
 		</section>
 
 		<section>
-			<h2 class="mt-1">{t('experience_title')}</h2>
+			<h2 class="mt-1 bg-zinc-100">{t('experience_title')}</h2>
 			<div class="text-secondary zoom-[1.1]">{t('experience_subtitle')}</div>
 
 			<Experience />

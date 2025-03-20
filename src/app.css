@@ -5,7 +5,7 @@
 @theme {
 	--color-primary: var(--color-fuchsia-300);
 	--color-secondary: var(--color-zinc-400);
-	--color-accent: var(--color-zinc-200);
+	--color-accent: var(--color-zinc-100);
 
 	/* a4: just a tiny bit smaller than A4 paper width so that it works also when printing to A4 */
 	--breakpoint-a4: 209mm;
@@ -19,11 +19,11 @@
 	}
 
 	h1 {
-		@apply zoom-[2.7] mb-0 leading-[1.2];
+		@apply zoom-[3] mb-0 leading-[1.2];
 	}
 
 	h2 {
-		@apply zoom-[1.6] mt-4 mb-1 rounded-t border-b bg-gray-100 px-1.5 py-1 leading-[1.4];
+		@apply zoom-[1.6] bg-accent mt-4 mb-1 rounded-t border-b px-1.5 py-1 leading-[1.4];
 	}
 
 	h3 {
@@ -64,8 +64,8 @@
 	}
 }
 
-@utility badge-large {
-	@apply border-secondary bg-zinc-200;
+@utility badge-highlight {
+	@apply bg-zinc-200;
 }
 
 /* Ribbons */
