@@ -1,5 +1,5 @@
 <script lang="ts">
-	import i18n from '$lib/i18n'
+	import useI18n from '$lib/composables/useI18n.svelte.js'
 	import Title from './(components)/Title.svelte'
 	import SkillsHighlight from './(components)/SkillsHighlight.svelte'
 	import Experience from './(components)/Experience.svelte'
@@ -12,7 +12,7 @@
 	import Personality from './(components)/Personality.svelte'
 	import Interests from './(components)/Interests.svelte'
 
-	const t = i18n({
+	const t = useI18n({
 		cs: {
 			learning: 'učím se',
 			skills: 'Dovednosti',

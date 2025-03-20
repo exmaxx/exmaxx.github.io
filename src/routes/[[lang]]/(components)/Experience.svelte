@@ -1,8 +1,8 @@
 <script lang="ts">
 	import Project from '$lib/components/atoms/Project.svelte'
-	import i18n from '$lib/i18n'
+	import useI18n from '$lib/composables/useI18n.svelte.js'
 
-	const t = i18n({
+	const t = useI18n({
 		// TODO: Update CZ.
 		cs: {
 			now: 'nyní',

@@ -1,12 +1,12 @@
 <script lang="ts">
 	import SourceCodeNote from './(components)/SourceCodeNote.svelte'
 	import PrintNote from './(components)/PrintNote.svelte'
-	import i18n from '$lib/i18n'
+	import useI18n from '$lib/composables/useI18n.svelte.js'
 	import LangSwitcher from '$lib/components/organisms/LangSwitcher.svelte'
 
 	const { children } = $props()
 
-	const t = i18n({
+	const t = useI18n({
 		cs: {
 			language: 'CZ',
 		},
