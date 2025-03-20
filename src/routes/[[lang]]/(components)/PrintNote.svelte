@@ -1,5 +1,11 @@
 <script lang="ts">
-	import i18n from '$lib/i18n.svelte'
+	import i18n from '$lib/i18n'
+
+	interface Props {
+		class?: string
+	}
+
+	const { class: classes }: Props = $props()
 
 	const t = i18n({
 		cs: {
@@ -15,7 +21,10 @@
 	})
 </script>
 
-<div class="a4:my-3 a4:gap-1 flex flex-col items-center 2xl:mr-10 2xl:flex-row 2xl:gap-6">
+<div
+	class={`text-accent zoom-2 a4:zoom-[3] a4:my-3 a4:gap-1 flex flex-col items-center 2xl:mr-10 2xl:flex-row 2xl:gap-6
+ 		${classes}`}
+>
 	<div class="flex flex-col items-center text-nowrap">
 		<div>
 			<button class="underline hover:cursor-pointer hover:text-white" onclick={() => window.print()}>
