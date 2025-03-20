@@ -12,5 +12,6 @@
 		<li class="badge">Git</li>
 		<li class="badge">Web Vitals</li>
 		<li class="badge">Azure Devops</li>
+		<li class="badge">TDD</li>
 	</ul>
 </section>

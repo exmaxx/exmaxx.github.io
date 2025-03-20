@@ -128,6 +128,7 @@
 				<li class="badge inline">Redux</li>
 				<li class="badge inline">Flowtype</li>
 				<li class="badge inline">REST API</li>
+				<li class="badge inline">React Test Utils</li>
 			</ul>
 		</div>
 	</Project>
