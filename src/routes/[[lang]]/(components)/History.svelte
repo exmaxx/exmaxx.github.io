@@ -18,11 +18,11 @@
 </script>
 
 <section>
-	<h3 class="mt-0">{t('history')}</h3>
+	<h3 class="mt-0">{t('history')()}</h3>
 
 	<ul>
-		<li>Ruby on Rails (1 {t('year')})</li>
-		<li>iOS/Swift, Android/Java (1 {t('year')})</li>
-		<li>PHP + MySQL ({t('occasionally')})</li>
+		<li>Ruby on Rails (1 {t('year')()})</li>
+		<li>iOS/Swift, Android/Java (1 {t('year')()})</li>
+		<li>PHP + MySQL ({t('occasionally')()})</li>
 	</ul>
 </section>

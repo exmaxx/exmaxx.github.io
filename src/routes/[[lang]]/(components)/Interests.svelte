@@ -18,11 +18,11 @@
 </script>
 
 <section>
-	<h3 class="mt-0">{t('work_interests')}</h3>
+	<h3 class="mt-0">{t('work_interests')()}</h3>
 
 	<ul>
-		<li>{t('interest_1')}</li>
-		<li>{t('interest_2')}</li>
-		<li>{t('interest_3')}</li>
+		<li>{t('interest_1')()}</li>
+		<li>{t('interest_2')()}</li>
+		<li>{t('interest_3')()}</li>
 	</ul>
 </section>

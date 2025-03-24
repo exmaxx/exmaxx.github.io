@@ -36,9 +36,9 @@
 </script>
 
 <section>
-	<Project position={t('proj_gap_title')} period="2024" title="Income Calculator">
+	<Project position={t('proj_gap_title')()} period="2024" title="Income Calculator">
 		<p>
-			<em>{t('proj_gap_description')}</em>
+			<em>{t('proj_gap_description')()}</em>
 		</p>
 
 		<ul>
@@ -71,7 +71,7 @@
 		links={[{ url: 'https://www.drmax.cz' }]}
 	>
 		<p>
-			<em>{t('proj_drmax_description')}</em>
+			<em>{t('proj_drmax_description')()}</em>
 		</p>
 
 		<ul>
@@ -111,7 +111,7 @@
 		links={[{ url: 'https://www.drmax.cz' }]}
 	>
 		<p>
-			<em>{t('proj_drmax_react_description')}</em>
+			<em>{t('proj_drmax_react_description')()}</em>
 		</p>
 
 		<ul>
@@ -138,11 +138,11 @@
 	<Project
 		position="Frontend Developer (React)"
 		period="2016-2017"
-		title="Esticom ({t('now')} Procore), USA"
+		title="Esticom ({t('now')()} Procore), USA"
 		links={[{ url: 'https://www.esticom.com' }]}
 	>
 		<p>
-			<em>{t('proj_esticom_description')}</em>
+			<em>{t('proj_esticom_description')()}</em>
 		</p>
 
 		<ul>
