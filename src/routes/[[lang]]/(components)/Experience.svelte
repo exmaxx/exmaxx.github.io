@@ -3,16 +3,38 @@
 	import useI18n from '$lib/composables/useI18n.svelte.js'
 
 	const t = useI18n({
-		// TODO: Update CZ.
 		cs: {
 			now: 'nyní',
-			proj_drmax_description:
-				'Velký mezinárodní tým spravující e-shop s léčivy. Mou hlavní náplní byl rozvoj modulu Checkout. Spolupracoval jsem také mmj. na rolloutu e-shopu na Slovensko a do Polska.',
+
 			proj_drmax_react_description: 'Vedení FE týmu 2 lidí. Vytvoření Checkoutu jako nezávislé aplikace.',
+			proj_drmax_react_details_1: 'Vedl jsem tým 2 vývojářů',
+			proj_drmax_react_details_2: 'Navrhnul architekturu',
+			proj_drmax_react_details_3: 'Doručil kompletní řešení',
+			proj_drmax_react_details_4: 'Zajistil kvalitu kódu pomocí typování, unit testů a detailních code reviews',
+
+			proj_drmax_vue_description:
+				'Velký mezinárodní tým spravující e-shop s léčivy. Mou hlavní náplní byl rozvoj modulu Checkout. Spolupracoval jsem také mmj. na rolloutu e-shopu na Slovensko a do Polska.',
+			proj_drmax_vue_details_1:
+				'Refactoroval jsem komplexní části Checkoutu, používal principy SOLID, zjednodušil kód - zrychlení debuggingu a vývoje',
+			proj_drmax_vue_details_2:
+				'Zlepšoval "performance" e-shopu, vylepšoval Web Vitals (rychlejší nahrávání webu, odstranění poskakování obsahu, atp.)',
+			proj_drmax_vue_details_3: 'Převáděl designy z Figmy do "pixel-perfect" UI',
+			proj_drmax_vue_details_4:
+				'Propojoval FE týmy při rolloutu do Polska - všasné doručení řešení',
+
 			proj_esticom_description:
 				'Webová aplikace pro stavební inženýry - stavební nákresy, odhady cen prací, rozesílání nabídek. Malý mezinárodnítým.',
+			proj_esticom_details_1:
+				'Vyvíjel jsem komplexní interaktivní tabulku pro odhad cen a stránku pro tvorbu koncové nabídky, včetně preview PDF',
+			proj_esticom_details_2: 'Implementoval správu dat pomocí Reduxu',
+
 			proj_gap_description: 'Malý srovnávač platů.',
+			proj_gap_details_1: 'Postaveno ve Svelte, nasazeno na Vercelu,',
+			proj_gap_details_2: 'Knihovna napsaná v Typescriptu, publikováno na NPM',
+			proj_gap_link_1: 'web',
+			proj_gap_link_2: 'zdroj',
 			proj_gap_title: 'Sebevzdělávání, osobní projekty',
+
 			source_app: 'Zdroj stánky',
 			source_lib: 'Zdroj knihovny',
 			subtitle: 'Výběr',
@@ -20,12 +42,35 @@
 		},
 		en: {
 			now: 'now',
-			proj_drmax_description:
-				'Developing large-scale e-commerce platform for pharmaceuticals, especially Checkout module. Large international team.',
+
 			proj_drmax_react_description:
 				'Creating standalone Checkout web application for pharmaceutical e-commerce platform.',
+			proj_drmax_react_details_1: 'Led a team of 2 developers',
+			proj_drmax_react_details_2: 'Made key architecture decisions',
+			proj_drmax_react_details_3: 'Delivered a complete solution',
+			proj_drmax_react_details_4: 'Enhanced code quality through type safety, unit tests and thorough code reviews',
+
+			proj_drmax_vue_description:
+				'Developing large-scale e-commerce platform for pharmaceuticals, especially Checkout module. Large international team.',
+			proj_drmax_vue_details_1:
+				'Refactored complex parts the Checkout module, applied SOLID principles, simplified code - faster debugging and feature development',
+			proj_drmax_vue_details_2:
+				'Improved e-shop performance and Web Vitals scores (faster load times, removed layout shifts)',
+			proj_drmax_vue_details_3: 'Transformed Figma designs into pixel-perfect UI',
+			proj_drmax_vue_details_4:
+				'Bridged FE teams communication during the Poland rollout, reducing implementation time',
+
 			proj_esticom_description: 'Web application for civil engineers. Small international team.',
+			proj_esticom_details_1:
+				'Developed complex interactive cost estimation table and final bid page with resulting PDF preview',
+			proj_esticom_details_2: 'Maintained data flow using Redux',
+
 			proj_gap_description: 'Simple salary comparator.',
+			proj_gap_details_1: 'Built Svelte app with Tailwind, deployed to Vercel,',
+			proj_gap_details_2: 'Developed a Typescript-heavy lib, published on NPM,',
+			proj_gap_link_1: 'web',
+			proj_gap_link_2: 'zdroj',
+
 			proj_gap_title: 'Self-learning, personal projects',
 			source_app: 'App source',
 			source_lib: 'Library source',
@@ -43,11 +88,11 @@
 
 		<ul>
 			<li>
-				Built Svelte app with Tailwind, deployed to Vercel, <a href="https://cz-income-simple.vercel.app">web</a>
+				{t('proj_gap_details_1')()} <a href="https://cz-income-simple.vercel.app">{t('proj_gap_link_1')()}</a>
 			</li>
 
 			<li>
-				Developed a Typescript-heavy lib, published on Npm, <a href="https://github.com/exmaxx/cz-income-lib">source</a>
+				{t('proj_gap_details_2')()} <a href="https://github.com/exmaxx/cz-income-lib">{t('proj_gap_link_2')()}</a>
 			</li>
 		</ul>
 
@@ -71,17 +116,14 @@
 		links={[{ url: 'https://www.drmax.cz' }]}
 	>
 		<p>
-			<em>{t('proj_drmax_description')()}</em>
+			<em>{t('proj_drmax_vue_description')()}</em>
 		</p>
 
 		<ul>
-			<li>
-				Refactored complex parts the Checkout module, applied SOLID principles, simplified code - faster debugging and
-				feature development
-			</li>
-			<li>Improved e-shop performance and Web Vitals scores (faster load times, removed layout shifts)</li>
-			<li>Transformed Figma designs into pixel-perfect UI</li>
-			<li>Bridged FE teams communication during the Poland rollout, reducing implementation time</li>
+			<li>{t('proj_drmax_vue_details_1')()}</li>
+			<li>{t('proj_drmax_vue_details_2')()}</li>
+			<li>{t('proj_drmax_vue_details_3')()}</li>
+			<li>{t('proj_drmax_vue_details_4')()}</li>
 		</ul>
 
 		<div class="mt-2 ml-5">
@@ -115,10 +157,10 @@
 		</p>
 
 		<ul>
-			<li>Led a team of 2 developers</li>
-			<li>Made key architecture decisions</li>
-			<li>Delivered a complete solution</li>
-			<li>Enhanced code quality through type safety, unit tests and thorough code reviews</li>
+			<li>{t('proj_drmax_react_details_1')()}</li>
+			<li>{t('proj_drmax_react_details_2')()}</li>
+			<li>{t('proj_drmax_react_details_3')()}</li>
+			<li>{t('proj_drmax_react_details_4')()}</li>
 		</ul>
 
 		<div class="mt-2 ml-5">
@@ -146,8 +188,8 @@
 		</p>
 
 		<ul>
-			<li>Developed complex interactive cost estimation table and final bid page with resulting PDF preview</li>
-			<li>Maintained data flow using Redux</li>
+			<li>{t('proj_esticom_details_1')()}</li>
+			<li>{t('proj_esticom_details_2')()}</li>
 		</ul>
 
 		<div class="mt-2 ml-5">

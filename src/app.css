@@ -49,11 +49,6 @@
 	a {
 		@apply text-nowrap underline underline-offset-2 before:mr-0.5 before:inline-block before:content-['→_'] hover:cursor-pointer hover:text-amber-600;
 	}
-
-	/* TODO: Delete or uncomment. */
-	/*a[href^='tel'] {*/
-	/*	@apply no-underline before:content-none;*/
-	/*}*/
 }
 
 /* Badge */
@@ -98,9 +93,11 @@
 
 /* Zoom */
 
-/* prettier-ignore*/
+/* prettier-ignore */
 @utility zoom-* {
+	/* noinspection CssOverwrittenProperties, CssInvalidPropertyValue */
 	font-size: --value(number)em;
+	/* noinspection CssOverwrittenProperties, CssInvalidPropertyValue */
 	font-size: --value([number])em;
 }
 
