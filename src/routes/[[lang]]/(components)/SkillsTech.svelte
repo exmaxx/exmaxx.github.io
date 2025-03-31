@@ -21,11 +21,11 @@
 		<li class="badge">Tailwind 4</li>
 		<li class="badge">Flex</li>
 		<li class="badge">Grid</li>
-		<li class="badge">{t('responsive_design')()}</li>
+		<li class="badge">{t('responsive_design')}</li>
 		<li class="badge">Jest</li>
 		<li class="badge">TDD</li>
 		<li class="badge">refactoring</li>
-		<li class="badge">{t('deep_code_reviews')()}</li>
+		<li class="badge">{t('deep_code_reviews')}</li>
 		<li class="badge">Git</li>
 		<li class="badge">Web Vitals</li>
 		<li class="badge">Azure Devops</li>

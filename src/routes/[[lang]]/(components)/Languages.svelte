@@ -18,10 +18,10 @@
 </script>
 
 <section>
-	<h3 class="mt-0">{t('languages')()}</h3>
+	<h3 class="mt-0">{t('languages')}</h3>
 	<ul>
-		<li>{t('lang_en')()}</li>
-		<li>{t('lang_de')()}</li>
-		<li>{t('lang_cs')()}</li>
+		<li>{t('lang_en')}</li>
+		<li>{t('lang_de')}</li>
+		<li>{t('lang_cs')}</li>
 	</ul>
 </section>

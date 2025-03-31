@@ -23,7 +23,7 @@
 			</picture>
 
 			<span class="text-[1.2em]">
-				<strong>Vue</strong>: 4 {t('years')()}
+				<strong>Vue</strong>: 4 {t('years')}
 			</span>
 		</li>
 
@@ -33,7 +33,7 @@
 			</picture>
 
 			<span class="text-[1.2em]">
-				<strong>React</strong>: 3 {t('years')()}
+				<strong>React</strong>: 3 {t('years')}
 			</span>
 		</li>
 
@@ -43,7 +43,7 @@
 			</picture>
 
 			<span class="text-[1.2em]">
-				<strong>Svelte</strong>: {t('learning')()}
+				<strong>Svelte</strong>: {t('learning')}
 			</span>
 		</li>
 
@@ -53,7 +53,7 @@
 			</picture>
 
 			<span class="text-[1.2em]">
-				<strong>TypeScript</strong>: 3 {t('years')()}
+				<strong>TypeScript</strong>: 3 {t('years')}
 			</span>
 		</li>
 	</ul>

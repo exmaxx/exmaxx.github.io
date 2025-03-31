@@ -20,12 +20,12 @@
 </script>
 
 <section class="">
-	<h2 class="mt-0">{t('strengths')()}</h2>
+	<h2 class="mt-0">{t('strengths')}</h2>
 
 	<ul>
-		<li>{t('code_maintainability')()}</li>
-		<li>{t('performance_optimization')()}</li>
-		<li>{t('ui_implementation')()}</li>
-		<li>{t('deep_code_reviews')()}</li>
+		<li>{t('code_maintainability')}</li>
+		<li>{t('performance_optimization')}</li>
+		<li>{t('ui_implementation')}</li>
+		<li>{t('deep_code_reviews')}</li>
 	</ul>
 </section>

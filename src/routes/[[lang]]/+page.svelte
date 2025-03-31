@@ -47,16 +47,16 @@
 
 	<section class="a4:grid a4:grid-cols-[auto_370px] mt-6 flex flex-col-reverse gap-8">
 		<section class="border-secondary bg-accent flex flex-col gap-3 rounded-xl px-5 pb-4">
-			<h2>{t('summary')()}</h2>
+			<h2>{t('summary')}</h2>
 
 			<Lead />
 
-			<h2 class="mt-1">{t('skills')()}</h2>
+			<h2 class="mt-1">{t('skills')}</h2>
 
 			<SkillsHighlight />
 			<SkillsTech />
 
-			<h2 class="mt-1">{t('who_am_i')()}</h2>
+			<h2 class="mt-1">{t('who_am_i')}</h2>
 
 			<Personality />
 			<Interests />
@@ -66,8 +66,8 @@
 		</section>
 
 		<section>
-			<h2 class="mt-1 bg-zinc-100">{t('experience_title')()}</h2>
-			<div class="text-secondary zoom-[1.1]">{t('experience_subtitle')()}</div>
+			<h2 class="mt-1 bg-zinc-100">{t('experience_title')}</h2>
+			<div class="text-secondary zoom-[1.1]">{t('experience_subtitle')}</div>
 
 			<Experience />
 		</section>

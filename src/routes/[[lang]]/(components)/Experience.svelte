@@ -81,18 +81,18 @@
 </script>
 
 <section>
-	<Project position={t('proj_gap_title')()} period="2024" title="Income Calculator">
+	<Project position={t('proj_gap_title')} period="2024" title="Income Calculator">
 		<p>
-			<em>{t('proj_gap_description')()}</em>
+			<em>{t('proj_gap_description')}</em>
 		</p>
 
 		<ul>
 			<li>
-				{t('proj_gap_details_1')()} <a href="https://cz-income-simple.vercel.app">{t('proj_gap_link_1')()}</a>
+				{t('proj_gap_details_1')} <a href="https://cz-income-simple.vercel.app">{t('proj_gap_link_1')}</a>
 			</li>
 
 			<li>
-				{t('proj_gap_details_2')()} <a href="https://github.com/exmaxx/cz-income-lib">{t('proj_gap_link_2')()}</a>
+				{t('proj_gap_details_2')} <a href="https://github.com/exmaxx/cz-income-lib">{t('proj_gap_link_2')}</a>
 			</li>
 		</ul>
 
@@ -116,14 +116,14 @@
 		links={[{ url: 'https://www.drmax.cz' }]}
 	>
 		<p>
-			<em>{t('proj_drmax_vue_description')()}</em>
+			<em>{t('proj_drmax_vue_description')}</em>
 		</p>
 
 		<ul>
-			<li>{t('proj_drmax_vue_details_1')()}</li>
-			<li>{t('proj_drmax_vue_details_2')()}</li>
-			<li>{t('proj_drmax_vue_details_3')()}</li>
-			<li>{t('proj_drmax_vue_details_4')()}</li>
+			<li>{t('proj_drmax_vue_details_1')}</li>
+			<li>{t('proj_drmax_vue_details_2')}</li>
+			<li>{t('proj_drmax_vue_details_3')}</li>
+			<li>{t('proj_drmax_vue_details_4')}</li>
 		</ul>
 
 		<div class="mt-2 ml-5">
@@ -153,14 +153,14 @@
 		links={[{ url: 'https://www.drmax.cz' }]}
 	>
 		<p>
-			<em>{t('proj_drmax_react_description')()}</em>
+			<em>{t('proj_drmax_react_description')}</em>
 		</p>
 
 		<ul>
-			<li>{t('proj_drmax_react_details_1')()}</li>
-			<li>{t('proj_drmax_react_details_2')()}</li>
-			<li>{t('proj_drmax_react_details_3')()}</li>
-			<li>{t('proj_drmax_react_details_4')()}</li>
+			<li>{t('proj_drmax_react_details_1')}</li>
+			<li>{t('proj_drmax_react_details_2')}</li>
+			<li>{t('proj_drmax_react_details_3')}</li>
+			<li>{t('proj_drmax_react_details_4')}</li>
 		</ul>
 
 		<div class="mt-2 ml-5">
@@ -180,16 +180,16 @@
 	<Project
 		position="Frontend Developer (React)"
 		period="2016-2017"
-		title="Esticom ({t('now')()} Procore), USA"
+		title="Esticom ({t('now')} Procore), USA"
 		links={[{ url: 'https://www.esticom.com' }]}
 	>
 		<p>
-			<em>{t('proj_esticom_description')()}</em>
+			<em>{t('proj_esticom_description')}</em>
 		</p>
 
 		<ul>
-			<li>{t('proj_esticom_details_1')()}</li>
-			<li>{t('proj_esticom_details_2')()}</li>
+			<li>{t('proj_esticom_details_1')}</li>
+			<li>{t('proj_esticom_details_2')}</li>
 		</ul>
 
 		<div class="mt-2 ml-5">

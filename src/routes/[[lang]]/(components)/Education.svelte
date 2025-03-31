@@ -14,9 +14,9 @@
 </script>
 
 <section>
-	<h3 class="mt-0">{t('education')()}</h3>
+	<h3 class="mt-0">{t('education')}</h3>
 
 	<ul>
-		<li>{t('muni')()}</li>
+		<li>{t('muni')}</li>
 	</ul>
 </section>

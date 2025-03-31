@@ -28,13 +28,13 @@
 	<div class="flex flex-col items-center text-nowrap">
 		<div>
 			<button class="underline hover:cursor-pointer hover:text-white" onclick={() => window.print()}>
-				{t('print')()}
+				{t('print')}
 			</button>
 
-			{t('to_PDF')()}
+			{t('to_PDF')}
 		</div>
 
-		<div class="zoom-[0.4]">{t('print_info')()}</div>
+		<div class="zoom-[0.4]">{t('print_info')}</div>
 	</div>
 
 	<span class="mx-3 hidden 2xl:inline">&RightArrow;</span>

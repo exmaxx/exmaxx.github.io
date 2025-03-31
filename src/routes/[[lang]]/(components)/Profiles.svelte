@@ -12,7 +12,7 @@
 </script>
 
 <section>
-	<h3 class="mt-0">{t('my_profiles')()}</h3>
+	<h3 class="mt-0">{t('my_profiles')}</h3>
 
 	<ul class="flex list-none gap-2 text-nowrap">
 		<li><a href="https://stackoverflow.com/users/2016383/exmaxx">StackOverflow</a></li>

@@ -20,12 +20,12 @@
 </script>
 
 <section>
-	<h3 class="mt-0">{t('my_attributes')()}</h3>
+	<h3 class="mt-0">{t('my_attributes')}</h3>
 
 	<ul>
-		<li>{t('honest')()}</li>
-		<li>{t('work_attitude')()}</li>
-		<li>{t('team_player')()}</li>
-		<li>{t('detail_oriented')()}</li>
+		<li>{t('honest')}</li>
+		<li>{t('work_attitude')}</li>
+		<li>{t('team_player')}</li>
+		<li>{t('detail_oriented')}</li>
 	</ul>
 </section>
