@@ -23,7 +23,7 @@
 	class={`zoom-1.5 text-accent a4:border-none a4:bg-inherit a4:pl-4
 		mx-1 py-2 text-center ${classes}`}
 >
-	{t('source_code')}: <a href="https://github.com/exmaxx/exmaxx.github.io">{t('here')()}</a>
+	{t('source_code')()}: <a href="https://github.com/exmaxx/exmaxx.github.io">{t('here')()}</a>
 
 	(HTML, CSS, Tailwind 4)
 </div>

@@ -69,7 +69,7 @@
 			proj_gap_details_1: 'Built Svelte app with Tailwind, deployed to Vercel,',
 			proj_gap_details_2: 'Developed a Typescript-heavy lib, published on NPM,',
 			proj_gap_link_1: 'web',
-			proj_gap_link_2: 'zdroj',
+			proj_gap_link_2: 'source',
 
 			proj_gap_title: 'Self-learning, personal projects',
 			source_app: 'App source',
