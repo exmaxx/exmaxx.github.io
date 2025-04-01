@@ -2,7 +2,7 @@
 	import useI18n from '$lib/composables/useI18n.svelte.js'
 	import Title from './(components)/Title.svelte'
 	import SkillsHighlight from './(components)/SkillsHighlight.svelte'
-	import Experience from './(components)/Experience.svelte'
+	import ExperienceWork from './(components)/ExperienceWork.svelte'
 	import SkillsTech from './(components)/SkillsTech.svelte'
 	import Lead from './(components)/Lead.svelte'
 	import Contacts from './(components)/Contacts.svelte'
@@ -11,6 +11,7 @@
 	import Languages from './(components)/Languages.svelte'
 	import Personality from './(components)/Personality.svelte'
 	import Interests from './(components)/Interests.svelte'
+	import ExperienceProjects from './(components)/ExperienceProjects.svelte'
 
 	const t = useI18n({
 		cs: {
@@ -19,7 +20,8 @@
 			summary: 'Profil',
 			years: 'roky',
 			experience_subtitle: 'Výběr',
-			experience_title: 'Praxe',
+			experience_work_title: 'Praxe',
+			experience_projects_title: 'Projekty',
 			who_am_i: 'Kdo jsem',
 		},
 		en: {
@@ -28,7 +30,8 @@
 			summary: 'Summary',
 			years: 'years',
 			experience_subtitle: 'Selection',
-			experience_title: 'Experience',
+			experience_work_title: 'Experience',
+			experience_projects_title: 'Projects',
 			who_am_i: 'Who am I',
 		},
 	})
@@ -66,10 +69,13 @@
 		</section>
 
 		<section>
-			<h2 class="mt-1 bg-zinc-100">{t('experience_title')}</h2>
-			<div class="text-secondary zoom-[1.1]">{t('experience_subtitle')}</div>
+			<h2 class="mt-1 bg-zinc-100">{t('experience_work_title')}</h2>
 
-			<Experience />
+			<ExperienceWork />
+
+			<h2 class="mt-6 bg-zinc-100">{t('experience_projects_title')}</h2>
+
+			<ExperienceProjects />
 		</section>
 	</section>
 </article>

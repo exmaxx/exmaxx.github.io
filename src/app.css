@@ -27,7 +27,7 @@
 	}
 
 	h3 {
-		@apply zoom-[1.2] mt-4 mb-2 leading-[1.4];
+		@apply zoom-[1.2] mt-3 mb-1.5 leading-[1.4];
 	}
 
 	ul {

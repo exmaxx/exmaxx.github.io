@@ -23,7 +23,7 @@
 			</picture>
 
 			<span class="text-[1.2em]">
-				<strong>Vue</strong>: 4 {t('years')}
+				<strong>Vue 2 & 3</strong>: 4 {t('years')}
 			</span>
 		</li>
 
@@ -33,7 +33,7 @@
 			</picture>
 
 			<span class="text-[1.2em]">
-				<strong>React</strong>: 3 {t('years')}
+				<strong>React 15 – 18</strong>: 3 {t('years')}
 			</span>
 		</li>
 

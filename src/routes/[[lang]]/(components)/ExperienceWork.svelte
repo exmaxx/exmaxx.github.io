@@ -8,19 +8,17 @@
 
 			proj_drmax_react_description: 'Vedení FE týmu 2 lidí. Vytvoření Checkoutu jako nezávislé aplikace.',
 			proj_drmax_react_details_1: 'Vedl jsem tým 2 vývojářů',
-			proj_drmax_react_details_2: 'Navrhnul architekturu',
-			proj_drmax_react_details_3: 'Doručil kompletní řešení',
-			proj_drmax_react_details_4: 'Zajistil kvalitu kódu pomocí typování, unit testů a detailních code reviews',
+			proj_drmax_react_details_2: 'Navrhnul architekturu & doručil kompletní řešení',
+			proj_drmax_react_details_3: 'Zajistil kvalitu kódu pomocí typování, unit testů a detailních code reviews',
 
 			proj_drmax_vue_description:
-				'Velký mezinárodní tým spravující e-shop s léčivy. Mou hlavní náplní byl rozvoj modulu Checkout. Spolupracoval jsem také mmj. na rolloutu e-shopu na Slovensko a do Polska.',
+				'Velký mezinárodní tým spravující e-shop s léčivy. Mou hlavní náplní byl rozvoj modulu Checkout a rollout e-shopu do Polska.',
 			proj_drmax_vue_details_1:
-				'Refactoroval jsem komplexní části Checkoutu, používal principy SOLID, zjednodušil kód - zrychlení debuggingu a vývoje',
+				'Refactoroval jsem komplexní části Checkoutu, používal SOLID, zjednodušil kód - zrychlení debuggingu a vývoje',
 			proj_drmax_vue_details_2:
 				'Zlepšoval "performance" e-shopu, vylepšoval Web Vitals (rychlejší nahrávání webu, odstranění poskakování obsahu, atp.)',
 			proj_drmax_vue_details_3: 'Převáděl designy z Figmy do "pixel-perfect" UI',
-			proj_drmax_vue_details_4:
-				'Propojoval FE týmy při rolloutu do Polska - všasné doručení řešení',
+			proj_drmax_vue_details_4: 'Propojoval FE týmy při rolloutu do Polska - všasné doručení řešení',
 
 			proj_esticom_description:
 				'Webová aplikace pro stavební inženýry - stavební nákresy, odhady cen prací, rozesílání nabídek. Malý mezinárodnítým.',
@@ -46,16 +44,15 @@
 			proj_drmax_react_description:
 				'Creating standalone Checkout web application for pharmaceutical e-commerce platform.',
 			proj_drmax_react_details_1: 'Led a team of 2 developers',
-			proj_drmax_react_details_2: 'Made key architecture decisions',
-			proj_drmax_react_details_3: 'Delivered a complete solution',
-			proj_drmax_react_details_4: 'Enhanced code quality through type safety, unit tests and thorough code reviews',
+			proj_drmax_react_details_2: 'Made key architecture decisions & delivered a complete solution',
+			proj_drmax_react_details_3: 'Enhanced code quality through type safety, unit tests and thorough code reviews',
 
 			proj_drmax_vue_description:
 				'Developing large-scale e-commerce platform for pharmaceuticals, especially Checkout module. Large international team.',
 			proj_drmax_vue_details_1:
-				'Refactored complex parts the Checkout module, applied SOLID principles, simplified code - faster debugging and feature development',
+				'Refactored complex parts the Checkout module, applied SOLID, simplified code - faster debugging and feature development',
 			proj_drmax_vue_details_2:
-				'Improved e-shop performance and Web Vitals scores (faster load times, removed layout shifts)',
+				'Improved performance (faster load times) and Web Vitals scores',
 			proj_drmax_vue_details_3: 'Transformed Figma designs into pixel-perfect UI',
 			proj_drmax_vue_details_4:
 				'Bridged FE teams communication during the Poland rollout, reducing implementation time',
@@ -63,50 +60,21 @@
 			proj_esticom_description: 'Web application for civil engineers. Small international team.',
 			proj_esticom_details_1:
 				'Developed complex interactive cost estimation table and final bid page with resulting PDF preview',
-			proj_esticom_details_2: 'Maintained data flow using Redux',
 
-			proj_gap_description: 'Simple salary comparator.',
+			proj_gap_title: 'Simple Salary Comparator',
 			proj_gap_details_1: 'Built Svelte app with Tailwind, deployed to Vercel,',
 			proj_gap_details_2: 'Developed a Typescript-heavy lib, published on NPM,',
 			proj_gap_link_1: 'web',
 			proj_gap_link_2: 'source',
-
-			proj_gap_title: 'Self-learning, personal projects',
+			proj_gap_position: 'Personal project',
 			source_app: 'App source',
 			source_lib: 'Library source',
+
 			subtitle: 'Selection',
 			title: 'Experience',
 		},
 	})
 </script>
-
-<section>
-	<Project position={t('proj_gap_title')} period="2024" title="Income Calculator">
-		<p>
-			<em>{t('proj_gap_description')}</em>
-		</p>
-
-		<ul>
-			<li>
-				{t('proj_gap_details_1')} <a href="https://cz-income-simple.vercel.app">{t('proj_gap_link_1')}</a>
-			</li>
-
-			<li>
-				{t('proj_gap_details_2')} <a href="https://github.com/exmaxx/cz-income-lib">{t('proj_gap_link_2')}</a>
-			</li>
-		</ul>
-
-		<div class="mt-2 ml-5">
-			Tech:
-
-			<ul class="inline list-none pl-0 leading-5">
-				<li class="badge badge-highlight inline">Svelte</li>
-				<li class="badge badge-highlight inline">Typescript</li>
-				<li class="badge inline">Tailwind</li>
-			</ul>
-		</div>
-	</Project>
-</section>
 
 <section>
 	<Project
@@ -140,6 +108,10 @@
 				<li class="badge inline">Web Vitals</li>
 				<li class="badge inline">Azure DevOps</li>
 				<li class="badge inline">SOLID</li>
+				<li class="badge inline">Speedcurve</li>
+				<li class="badge inline">Docker</li>
+				<li class="badge inline">Kubernetes</li>
+				<li class="badge inline">Elastic</li>
 			</ul>
 		</div>
 	</Project>
@@ -160,7 +132,6 @@
 			<li>{t('proj_drmax_react_details_1')}</li>
 			<li>{t('proj_drmax_react_details_2')}</li>
 			<li>{t('proj_drmax_react_details_3')}</li>
-			<li>{t('proj_drmax_react_details_4')}</li>
 		</ul>
 
 		<div class="mt-2 ml-5">
@@ -189,7 +160,6 @@
 
 		<ul>
 			<li>{t('proj_esticom_details_1')}</li>
-			<li>{t('proj_esticom_details_2')}</li>
 		</ul>
 
 		<div class="mt-2 ml-5">
