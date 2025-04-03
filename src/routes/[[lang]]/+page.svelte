@@ -37,7 +37,7 @@
 	})
 </script>
 
-<article class="a4:px-12 px-6 py-8 print:shadow-none">
+<article class="a4:px-11 px-6 py-8 print:shadow-none">
 	<section class="a4:flex-row ml-2 flex flex-col">
 		<div class="grow">
 			<Title />
@@ -48,7 +48,7 @@
 		</div>
 	</section>
 
-	<section class="a4:grid a4:grid-cols-[auto_370px] mt-6 flex flex-col-reverse gap-8">
+	<section class="a4:grid a4:grid-cols-[auto_375px] mt-6 flex flex-col-reverse gap-8">
 		<section class="border-secondary bg-accent flex flex-col gap-3 rounded-xl px-5 pb-4">
 			<h2>{t('summary')}</h2>
 

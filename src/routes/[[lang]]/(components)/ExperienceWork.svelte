@@ -137,7 +137,7 @@
 		<div class="mt-2 ml-5">
 			Tech:
 			<ul class="inline list-none pl-0 leading-5">
-				<li class="badge badge-highlight inline">React</li>
+				<li class="badge badge-highlight inline">React 16</li>
 				<li class="badge inline">Redux</li>
 				<li class="badge inline">Flowtype</li>
 				<li class="badge inline">REST API</li>
@@ -165,7 +165,7 @@
 		<div class="mt-2 ml-5">
 			Tech:
 			<ul class="inline list-none pl-0 leading-5">
-				<li class="badge badge-highlight inline">React</li>
+				<li class="badge badge-highlight inline">React 15</li>
 				<li class="badge inline">Redux</li>
 				<li class="badge inline">REST API</li>
 			</ul>
