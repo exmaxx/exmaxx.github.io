@@ -51,8 +51,7 @@
 				'Developing large-scale e-commerce platform for pharmaceuticals, especially Checkout module. Large international team.',
 			proj_drmax_vue_details_1:
 				'Refactored complex parts the Checkout module, applied SOLID, simplified code - faster debugging and feature development',
-			proj_drmax_vue_details_2:
-				'Improved performance (faster load times) and Web Vitals scores',
+			proj_drmax_vue_details_2: 'Improved performance (faster load times) and Web Vitals scores',
 			proj_drmax_vue_details_3: 'Transformed Figma designs into pixel-perfect UI',
 			proj_drmax_vue_details_4:
 				'Bridged FE teams communication during the Poland rollout, reducing implementation time',

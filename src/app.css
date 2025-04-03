@@ -8,7 +8,7 @@
 	--color-accent: var(--color-zinc-100);
 
 	/* a4: just a tiny bit smaller than A4 paper width so that it works also when printing to A4 */
-	--breakpoint-a4: 209mm;
+	--breakpoint-a4: 200mm;
 }
 
 @layer base {

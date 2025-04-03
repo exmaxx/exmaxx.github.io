@@ -3,13 +3,13 @@
 
 	const t = useI18n({
 		cs: {
-			'responsive_design': 'responsivní design',
-			'deep_code_reviews': 'hloubkové code reviews',
+			responsive_design: 'responsivní design',
+			deep_code_reviews: 'hloubkové code reviews',
 		},
 		en: {
-			'responsive_design': 'responsive design',
-			'deep_code_reviews': 'deep code reviews',
-		}
+			responsive_design: 'responsive design',
+			deep_code_reviews: 'deep code reviews',
+		},
 	})
 </script>
 

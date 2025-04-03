@@ -15,7 +15,7 @@
 			performance_optimization: 'Performance optimization',
 			ui_implementation: 'UI implementation',
 			deep_code_reviews: 'Deep code reviews',
-		}
+		},
 	})
 </script>
 
