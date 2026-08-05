@@ -37,7 +37,7 @@
 	})
 </script>
 
-<article class="a4:px-11 px-6 py-8 print:shadow-none">
+<article class="a4:px-11 px-6 py-8">
 	<section class="a4:flex-row flex flex-col">
 		<div class="ml-2 grow">
 			<Title />

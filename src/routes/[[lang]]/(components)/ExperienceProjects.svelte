@@ -40,7 +40,7 @@
 			Tech:
 
 			<ul class="inline list-none pl-0 leading-5">
-				<li class="badge badge-highlight inline">React 18</li>
+				<li class="badge badge-highlight inline">React</li>
 				<li class="badge badge-highlight inline">Typescript</li>
 				<li class="badge inline">React Router</li>
 				<li class="badge mr-8 inline">React Query</li>
