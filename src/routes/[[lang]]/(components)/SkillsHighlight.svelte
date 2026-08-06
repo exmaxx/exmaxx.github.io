@@ -33,7 +33,7 @@
 			</picture>
 
 			<span class="text-[1.2em]">
-				<strong>React 15 – 18</strong>: 3 {t('years')}
+				<strong>React</strong>: 3 {t('years')}
 			</span>
 		</li>
 
